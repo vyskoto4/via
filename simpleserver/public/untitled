@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>SellBuy</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+    <div class="row">
+        <table class="table table-bordered" style="table-layout:fixed">
+          <tr>
+            <th  class="col-sm-1" rowspan="2"><img id="pic" style="max-height:100px" src="http://www.esupplystore.com/assets/images/prods/boxes/Box.jpg"></th>
+            <th class="col-sm-2 active" style="">Name</th>
+            <th class="col-sm-2 active">Description</th>
+            <th class="col-sm-1 active">Price</th>
+            <th class="col-sm-1 active">Address</th>
+
+          </tr>          
+          <tr>
+          <td  id="name" style="overflow: hidden; text-overflow: ellipsis"> <h3>name</h3> </td>
+            <td id="desc" style="overflow: hidden; text-overflow: ellipsis" >desc</td>
+            <td id="price" >price</td>
+            <td id="address" >address</td>
+          </tr>
+          <tr>
+          <td colspan="5"></td>
+          </tr>        
+        </table>         
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
